@@ -7,7 +7,7 @@ git commit -m "deploy"
 
 git push
 
-npm run build
+yarn build
 
 cd .vuepress/dist
 
