@@ -2,6 +2,7 @@ var path = require("path");
 let { getArticles } = require(path.resolve(".vuepress/utils"));
 
 module.exports = {
+  publicPath: "",
   title: "TIL - Mulgyeol",
   description: "Today I Learned",
   email: "Mulgyeol@gmail.com",
