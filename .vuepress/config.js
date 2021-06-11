@@ -37,19 +37,9 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: "Java",
-        collapsable: true,
-        children: getArticles("java"),
-      },
-      {
         title: "Algorithms",
         collapsable: true,
         children: getArticles("algorithms"),
-      },
-      {
-        title: "GIT",
-        collapsable: true,
-        children: getArticles("git"),
       },
     ],
     displayAllHeaders: false,
@@ -79,5 +69,9 @@ module.exports = {
   ],
   markdown: {
     lineNumbers: true,
+  },
+  scripts: {
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build",
   },
 };

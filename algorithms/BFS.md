@@ -4,7 +4,7 @@ date: 2021-06-11
 tags: ["알고리즘"]
 ---
 
-# 깊이 우선 탐색(DFS, Depth-First Search)
+# 너비 우선 탐색(BFS, Depth-First Search)
 
 #### refernece
 

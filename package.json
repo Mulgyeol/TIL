@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
   },
   "devDependencies": {
     "@limdongjin/vuepress-plugin-sidebar-on-off": "^1.0.0-alpha.31",
