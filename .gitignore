@@ -1,0 +1,6 @@
+yarn-error.log
+.idea/
+.DS_Store
+node_modules/
+yarn.lock
+.vuepress/dist/

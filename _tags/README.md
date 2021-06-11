@@ -1,0 +1,6 @@
+---
+sidebar: false
+---
+# Tags
+
+<TagList />
