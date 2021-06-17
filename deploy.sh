@@ -1,28 +1,29 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
+
+# abort on errors
 set -e
 
-git add .
-
-git commit -m "deploy"
-
-git push
-
+# build
 yarn build
 
+# navigate into the build output directory
 cd .vuepress/dist
 
-git clone https://github.com/mulgyeol/TIL
+# if you are deploying to a custom domain
+# echo 'www.example.com' > CNAME
+git config --global user.email "mulgyeoljung@gmail.com"
+git config --global user.name "Mulgyeol"
 
-cp -rf Mulgyeol.github.io/TIL/.git ./.git
+git init
+git add -A
+git commit -m 'deploy'
 
-rm -rf Mulgyeol.github.io/TIL
 
-git config --global http.postBuffer 524288000
 
-git add .
+# if you are deploying to https://<USERNAME>.github.io
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
-git commit -m "deploy"
-
-git push origin master
+# if you are deploying to https://<USERNAME>.github.io/<REPO>
+git push -f https://github.com/Mulgyeol/TIL.git master:gh-pages
 
 cd -
