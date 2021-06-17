@@ -140,9 +140,9 @@ public class DijkstraTest {
 
 ---
 
-# Dijkstra 알고리즘 문제 풀이
+## Dijkstra 알고리즘 문제 풀이
 
-## [백준 - 1753] 최단경로
+### [백준 - 1753] 최단경로
 
 - [[백준 - 1753] 최단경로](https://www.acmicpc.net/problem/1753)
 
