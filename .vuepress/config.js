@@ -60,9 +60,9 @@ module.exports = {
     [
       "@limdongjin/vuepress-plugin-simple-seo",
       {
-        default_image: "/images/main-image-min.jpg",
-        root_url: "https://limdongjin.github.io",
-        default_site_name: "limdongjin TIL",
+        default_image: "/images/felog.png",
+        root_url: "https://mulgyeol.github.io/TIL",
+        default_site_name: "Mulgyeol TIL",
       },
     ],
   ],
