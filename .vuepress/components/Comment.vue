@@ -19,7 +19,7 @@ export default {
 
       utterances.setAttribute("issue-term", "title");
       utterances.setAttribute("theme", "github-light");
-      utterances.setAttribute("repo", `mulgyeol/TIL`);
+      utterances.setAttribute("repo", `Mulgyeol/TIL`);
       if (dom.hasChildNodes()) {
         dom.innerHTML = "";
       }
