@@ -6,6 +6,8 @@ tags: ["알고리즘"]
 
 # 깊이 우선 탐색(DFS, Depth-First Search)
 
+![img](../images/Algorithm.png)
+
 #### refernece
 
 - [[알고리즘] 깊이 우선 탐색(DFS)이란](https://gmlwjd9405.github.io/2018/08/14/algorithm-dfs.html)
