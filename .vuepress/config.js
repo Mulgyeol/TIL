@@ -2,11 +2,10 @@ var path = require("path");
 let { getArticles } = require(path.resolve(".vuepress/utils"));
 
 module.exports = {
-  publicPath: "",
+  base: "/TIL/",
   title: "TIL - Mulgyeol",
   description: "Today I Learned",
   email: "Mulgyeol@gmail.com",
-  base: "/til/",
   head: [
     ["link", { rel: "icon", href: `/images/felog.png` }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
@@ -30,7 +29,6 @@ module.exports = {
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: "Help us improve this page!",
-
     nav: [
       { text: "Home", link: "/" },
       { text: "GitHub", link: "https://github.com/mulgyeol/til" },
