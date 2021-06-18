@@ -27,7 +27,7 @@ tags: ["알고리즘"]
 
 ---
 
-## Dijkstra 알고리즘
+## Dijkstra 알고리즘 -1 기본 구현
 
 - 시작 정점에서의 거리가 최소인 `정점`을 선택해 나가면서 최단 경로를 구하는 방식이다.
   - `정점` 중심이므로 인접행렬, 인접리스트가 적절하다.
@@ -138,9 +138,72 @@ public class DijkstraTest {
 }
 ```
 
+## Dijkstra 알고리즘 -2 우선순위 큐
+
+문제를 풀다 보면 위 방법으로 Dijkstra를 구현 했을 때, 시간초과가 나오는 경우 가 있다. 매 반복마다 출발점에서 가장 가까운 지점을 찾는 것은 아주 큰 시간낭비다. 그래서 시작점으로 부터 가까운 위치에 있는 지점을 담는 `우선순위 큐`를 이용해 Dijkstra를 구현해 보자.
+
+### 우선순위 큐를 위한 Node 클래스
+
+```java
+static class Node implements Comparable<Node>{
+
+    int idx, distance;
+
+    public Node(int idx, int distance) {
+        super();
+        this.idx = idx;
+        this.distance = distance;
+    }
+
+    @Override
+    public int compareTo(Node o) {
+        return Integer.compare(this.distance, o.distance);
+    }
+
+}
+
+```
+
+### 우선순위 큐를 사용한 Dijkstra
+
+```Java
+private static void dijkstra() {
+	PriorityQueue pq = new PriorityQueue<>();
+	visited = new boolean[N+1];
+	distance = new int[N+1];
+
+	Arrays.fill(distance, INF);
+	distance[X] = 0;
+	pq.offer(new Node(X,distance[X]));
+
+	while(!pq.isEmpty()) {
+		Node curNode = pq.poll();
+		int curNum = curNode.num;
+		int curDis = curNode.distance;
+
+		if(curDis == K){ // K == 목적 거리
+			// 목적거리만큼 왔으면 할 일
+		}
+
+		if(curNum == goal) { //goal == 목적 노드
+			// 목적지점에 도착했으면 할 일
+		}
+
+		visited[curNum] = true;
+
+		for(int next : adjList[curNum]) {
+			if(!visited[next] && distance[next]>curDis+1) {
+				distance[next] = curDis+1;
+				pq.offer(new Node(next, distance[next]));
+			}
+		}
+	}
+}
+```
+
 ---
 
-## Dijkstra 알고리즘 문제 풀이
+## Dijkstra 알고리즘 - 기본구현 문제 풀이
 
 ### [백준 - 1753] 최단경로
 
