@@ -1,5 +1,5 @@
 ---
-description: Javascript 변천사
+description: 자바스크립트 변천사
 date: 2021-06-20
 tags: ["Javascript"]
 ---
