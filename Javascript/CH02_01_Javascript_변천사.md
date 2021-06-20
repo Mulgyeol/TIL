@@ -1,12 +1,12 @@
 ---
-description: 자바스크립트 변천사
+description: Javascript 변천사
 date: 2021-06-20
 tags: ["Javascript"]
 ---
 
-> 이 문서는 [김민태의 프론트엔드 아카데미](https://fastcampus.co.kr/category_academy_kmt) 강의를 바탕으로 작성되었습니다.
-
 # Javascript 변천사
+
+> 이 문서는 [김민태의 프론트엔드 아카데미](https://fastcampus.co.kr/category_academy_kmt) 강의를 바탕으로 작성되었습니다.
 
 - 1995년에 넷스케이프 브라우저에 처음 탑재되어 나왔다.
   - 이때 이름은 LiveScript 였다.
