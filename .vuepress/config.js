@@ -40,6 +40,11 @@ module.exports = {
         collapsable: true,
         children: getArticles("algorithms"),
       },
+      {
+        title: "Javascript",
+        collapsable: true,
+        children: getArticles("Javascript"),
+      },
     ],
     displayAllHeaders: false,
     lastUpdated: "Last Updated",
