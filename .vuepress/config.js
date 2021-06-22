@@ -38,7 +38,7 @@ module.exports = {
       {
         title: "Algorithms",
         collapsable: true,
-        children: getArticles("algorithms"),
+        children: getArticles("Algorithms"),
       },
       {
         title: "Front-End",
