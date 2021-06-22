@@ -45,6 +45,11 @@ module.exports = {
         collapsable: true,
         children: getArticles("Front-End"),
       },
+      {
+        title: "HTML",
+        collapsable: true,
+        children: getArticles("HTML"),
+      },
     ],
     displayAllHeaders: false,
     lastUpdated: "Last Updated",
