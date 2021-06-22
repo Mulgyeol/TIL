@@ -41,9 +41,9 @@ module.exports = {
         children: getArticles("algorithms"),
       },
       {
-        title: "Javascript",
+        title: "Front-End",
         collapsable: true,
-        children: getArticles("Javascript"),
+        children: getArticles("Front-End"),
       },
     ],
     displayAllHeaders: false,
