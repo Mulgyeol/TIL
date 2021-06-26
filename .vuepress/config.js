@@ -50,6 +50,11 @@ module.exports = {
         collapsable: true,
         children: getArticles("HTML"),
       },
+      {
+        title: "CSS",
+        collapsable: true,
+        children: getArticles("CSS"),
+      },
     ],
     displayAllHeaders: false,
     lastUpdated: "Last Updated",
