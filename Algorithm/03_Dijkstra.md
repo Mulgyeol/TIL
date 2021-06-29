@@ -1,7 +1,7 @@
 ---
 description: Dijkstra에 대해 알아보자
 date: 2021-06-17
-tags: ["알고리즘"]
+tags: ["Algorithm"]
 ---
 
 # Dijkstra 알고리즘, 최단 경로

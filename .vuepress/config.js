@@ -36,9 +36,9 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: "Algorithms",
+        title: "Algorithm",
         collapsable: true,
-        children: getArticles("Algorithms"),
+        children: getArticles("Algorithm"),
       },
       {
         title: "Front-End",

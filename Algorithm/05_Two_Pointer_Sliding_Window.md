@@ -1,7 +1,7 @@
 ---
 description: 투 포인터와 슬라이딩 윈도우
 date: 2021-06-24
-tags: ["알고리즘"]
+tags: ["Algorithm"]
 ---
 
 # 투 포인터와 슬라이딩 윈도우

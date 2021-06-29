@@ -1,7 +1,7 @@
 ---
 description: Floyd-Warshall 알고리즘에 대해 알아보자
 date: 2021-06-21
-tags: ["알고리즘"]
+tags: ["Algorithm"]
 ---
 
 # Floyd-Warshall 알고리즘, 최단경로

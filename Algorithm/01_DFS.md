@@ -1,7 +1,7 @@
 ---
 description: DFS에 대해 알아보자
 date: 2021-06-10
-tags: ["알고리즘"]
+tags: ["Algorithm"]
 ---
 
 # 깊이 우선 탐색(DFS, Depth-First Search)
