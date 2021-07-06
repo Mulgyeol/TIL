@@ -55,6 +55,11 @@ module.exports = {
         collapsable: true,
         children: getArticles("CSS"),
       },
+      {
+        title: "Javascript",
+        collapsable: true,
+        children: getArticles("Javascript"),
+      },
     ],
     displayAllHeaders: false,
     lastUpdated: "Last Updated",
