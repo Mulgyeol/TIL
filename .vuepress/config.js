@@ -60,6 +60,11 @@ module.exports = {
         collapsable: true,
         children: getArticles("Javascript"),
       },
+      {
+        title: "DevOps",
+        collapsable: true,
+        children: getArticles("DevOps"),
+      },
     ],
     displayAllHeaders: false,
     lastUpdated: "Last Updated",
