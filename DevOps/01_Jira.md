@@ -66,7 +66,7 @@ tags: ["DevOps"]
 
 ### Date in Jira
 
-![img](../images/DevOps/date_in_jira.png)
+![img](../images/DevOps/date_in_Jira.png)
 
 - `project = DP AND assignee in (currentUser()) and updated > -1d(1w)` : DP프로젝트에서 내가 담당자이면서 어제(지난 주) 이후로 수정된 이슈들에 대해 보여달라.
 
@@ -87,7 +87,7 @@ tags: ["DevOps"]
 
 ### JQL 활용예시 : Filter share
 
-![img](../images/DevOps/Filter_in_Jira.png)
+![img](../images/DevOps/filter_in_Jira.png)
 
 - `project = DP AND updated > startOfWeek(1d) and updated < endOfWeek(-1d)` : DP프로젝트에서 일요일보다 이틀 뒤인 화요일 이후 그리고 토요일보다 하루 전인 금요일 이전에 수정된 이슈들에 대해 보여달라.
   - 위 JQL을 저장해서 다른 사람들도 같은 검색을 할 수 있다.
